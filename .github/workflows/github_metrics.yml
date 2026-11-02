@@ -83,3 +83,4 @@ jobs:
         with:
           name: dapr_github_metrics
           path: ${{ env.ARCHIVE_OUTDIR }}
+          retention-days: 7
